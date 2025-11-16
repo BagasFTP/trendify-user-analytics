@@ -100,44 +100,70 @@ Trendify-User-Analytics/
 
 ## 📊 5. Ringkasan Dashboard Power BI
 
-Dashboard terdiri dari **5 halaman utama**:
+Dashboard terdiri dari **5 halaman utama**, lengkap dengan visualisasi interaktif untuk menganalisis perilaku user Trendify.
 
-### **1. Overview -- User & Traffic Summary**
+---
 
--   Total Unique Users\
--   DAU / WAU / MAU\
--   Event Volume\
--   Device distribution\
--   Daily traffic trends
+### **1. Overview – User & Traffic Summary**
+
+![Overview](dashboard/Overview.png)
+
+Menampilkan:
+- Total Unique Users  
+- DAU / WAU / MAU  
+- Event Volume  
+- Device Distribution  
+- Daily Traffic Trends  
+
+---
 
 ### **2. Feature Usage Dashboard**
 
--   Event volume by feature\
--   Usage per device\
--   Heatmap (Day vs Hour)
+![Feature Usage](dashboard/Feature%20Usage.png)
+
+Menampilkan:
+- Event volume per fitur  
+- Penggunaan fitur per device  
+- Heatmap aktivitas (Day vs Hour)  
+
+---
 
 ### **3. Checkout Funnel**
 
-Alur utama:\
+![Funnel](dashboard/Funnel.png)
+
+Alur utama:  
 `view_product → app_open → add_to_cart → start_checkout → payment_success`
 
-Menampilkan: - Conversion rate tiap tahap\
-- Drop-off\
-- Funnel per kategori\
-- Funnel per device
+Dashboard ini menampilkan:
+- Conversion rate tiap tahap  
+- Drop-off terbesar  
+- Perbandingan funnel per kategori  
+- Funnel berdasarkan device  
+
+---
 
 ### **4. Device-Based Funnel**
 
--   Android Funnel\
--   iOS Funnel\
--   Web Funnel\
--   Perbandingan conversion rate
+![Device Funnel](dashboard/Device-based%20Funnel.png)
+
+Menampilkan:
+- Funnel Android  
+- Funnel iOS  
+- Funnel Web  
+- Perbandingan conversion rate antar device  
+
+---
 
 ### **5. Retention & Cohort Dashboard**
 
--   Retention D1 / D7 / D30\
--   Tabel cohort by first_seen_date\
--   Retention dynamic by device
+![Retention](dashboard/Retention%20&%20Cohort.png)
+
+Menampilkan:
+- Retention D1 / D7 / D30  
+- Tabel cohort berdasarkan first_seen_date  
+- Retention dynamic per device  
+
 
 ------------------------------------------------------------------------
 
