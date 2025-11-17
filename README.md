@@ -14,10 +14,10 @@ analysis, dan retention cohort.
 Trendify sebagai aplikasi e-commerce baru menghadapi beberapa masalah
 setelah 3 bulan rilis:
 
--   Checkout completion rendah\
--   Banyak user AddToCart namun tidak sampai pembayaran\
--   Fitur tertentu jarang digunakan\
--   Retention rendah (churn tinggi)\
+-   Checkout completion rendah
+-   Banyak user AddToCart namun tidak sampai pembayaran
+-   Fitur tertentu jarang digunakan
+-   Retention rendah (churn tinggi)
 -   Tidak ada dashboard monitoring analytics
 
 Project ini dibuat untuk memberikan **insight berbasis data** dan
@@ -27,11 +27,11 @@ Project ini dibuat untuk memberikan **insight berbasis data** dan
 
 ## 🎯 2. Tujuan Project
 
-1.  Menganalisis perilaku pengguna\
-2.  Mengetahui fitur yang paling/kurang dipakai\
-3.  Menganalisis checkout funnel & titik drop-off\
-4.  Menghitung retensi user (D1, D7, D30)\
-5.  Membuat dashboard Power BI lengkap\
+1.  Menganalisis perilaku pengguna
+2.  Mengetahui fitur yang paling/kurang dipakai
+3.  Menganalisis checkout funnel & titik drop-off
+4.  Menghitung retensi user (D1, D7, D30)
+5.  Membuat dashboard Power BI lengkap
 6.  Memberikan rekomendasi untuk meningkatkan conversion & retention
 
 ------------------------------------------------------------------------
@@ -40,30 +40,30 @@ Project ini dibuat untuk memberikan **insight berbasis data** dan
 
 ### 👤 Peran 1 -- Data Cleaning & Preparation (Ferdi)
 
--   Cleaning dataset\
+-   Cleaning dataset
 -   Handling missing value & duplicate\
 -   Normalisasi event\
--   Ekstraksi timestamp\
+-   Ekstraksi timestamp
 -   Output: `event_log_trendify_clean.csv`
 
 ### 👤 Peran 2 -- Exploratory Data Analyst (Hardy)
 
--   DAU/WAU/MAU\
--   Feature usage\
--   Device usage\
--   Heatmap (Day vs Hour)\
--   Insight EDA\
+-   DAU/WAU/MAU
+-   Feature usage
+-   Device usage
+-   Heatmap (Day vs Hour)
+-   Insight EDA
 -   Output: `EDA_APP.ipynb`, `READMEeda.md`
 
 ### 👤 Peran 3 -- Funnel, Retention & Dashboard Developer (Bagas)
 
-*(Funnel & retention dibuat langsung di Power BI)*\
-- Checkout funnel: conversion & drop-off\
-- Funnel per device\
-- Funnel per kategori\
-- Retention analysis (D1/D7/D30)\
-- Cohort table\
-- Dashboard Power BI final\
+*(Funnel & retention dibuat langsung di Power BI)*
+- Checkout funnel: conversion & drop-off
+- Funnel per device
+- Funnel per kategori
+- Retention analysis (D1/D7/D30)
+- Cohort table
+- Dashboard Power BI final
 - Output: Dashboard PBIX + screenshot pages
 
 ------------------------------------------------------------------------
@@ -79,11 +79,11 @@ Trendify-User-Analytics/
 │
 ├── notebooks/
 │   ├── EDA_APP.ipynb                      
-│   ├── 01_data_cleaning.ipynb (optional)   
+│   ├── 01_data_cleaning.ipynb  
 │
 ├── analysis/
 │   ├── READMEeda.md                          
-│   ├── funnel_retention_notes.md (optional)  
+│   ├── funnel_retention_notes.md  
 │
 ├── dashboard/
 │   ├── Trendify-User-Behavior-Analytics-Dashboard.pbix
