@@ -79,11 +79,11 @@ Trendify-User-Analytics/
 │
 ├── notebooks/
 │   ├── EDA_APP.ipynb                      
-│   ├── 01_data_cleaning.ipynb (optional)   
+│   ├── 01_data_cleaning.ipynb  
 │
 ├── analysis/
 │   ├── READMEeda.md                          
-│   ├── funnel_retention_notes.md (optional)  
+│   ├── funnel_retention_notes.md  
 │
 ├── dashboard/
 │   ├── Trendify-User-Behavior-Analytics-Dashboard.pbix
